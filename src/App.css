@@ -1,0 +1,59 @@
+
+.top{
+  display: flex;
+}
+.head{
+  background-color:aqua;
+  font-weight: bold;
+  font-family: sans-serif;
+  width:180px;
+  height:60px;
+  border: 4px solid rgb(236, 89, 89);
+  text-align: center;
+  line-height: 70px;
+}
+.head1{
+  background-color:rgb(236, 89, 89);;
+  font-weight: bold;
+  font-family: sans-serif;
+  width:240px;
+  height:60px;
+  border: 4px solid rgb(236, 89, 89);
+  text-align: center;
+  line-height: 70px;
+}
+.Pen{
+  display: flex;
+  position: relative;top:-2em;
+}
+.Pen>p{
+  background-color:aqua;
+  font-weight: bold;
+  font-family: sans-serif;
+  width:180px;
+  height:60px;
+  border: 4px solid rgb(236, 89, 89);
+  text-align: center;
+  line-height: 70px;
+}
+.Pen>button{
+  width:125px;
+  height:68px;
+  position: relative;top:16px;
+  border: 4px solid rgb(236, 89, 89);
+  background-color: rgb(97, 97, 206);
+}
+#book{
+ top:-4em;
+}
+#notebook{
+ top:-6em;
+}
+.total{
+  width:180px;
+  height: 200px;
+  border: 4px solid rgb(236, 89, 89);
+  position :relative;top:-20em;left:39em;
+  text-align: center;
+  line-height: 160px;
+}
